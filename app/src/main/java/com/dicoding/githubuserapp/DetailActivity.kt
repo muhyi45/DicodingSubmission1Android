@@ -20,7 +20,6 @@ class DetailActivity : AppCompatActivity() {
 
         val name = data?.name.toString()
         val userName = data?.username.toString()
-        val skill = data?.skill.toString()
         val follower = data?.follower.toString()
         val following = data?.following.toString()
         val company = data?.company.toString()
@@ -34,8 +33,6 @@ class DetailActivity : AppCompatActivity() {
         nameText.text = name
         val userNameText = findViewById<TextView>(R.id.text_username)
         userNameText.text = userName
-        val skillText = findViewById<TextView>(R.id.text_skill)
-        skillText.text = skill
         val followerText = findViewById<TextView>(R.id.text_follower)
         followerText.text = follower
         val followingText = findViewById<TextView>(R.id.text_following)

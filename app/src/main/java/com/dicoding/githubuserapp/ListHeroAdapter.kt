@@ -21,11 +21,10 @@ class ListHeroAdapter(private val listHero: ArrayList<Hero>) : RecyclerView.Adap
     }
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
-        val (name, username, skill,follower, following, company, location, repository, photo) = listHero[position]
+        val (name, username,follower, following, company, location, repository, photo) = listHero[position]
         holder.imgPhoto.setImageResource(photo)
         holder.tvName.text = name
         holder.tvUsername.text = username
-        holder.tvSkill.text = skill
         holder.tvFollower.text = follower
         holder.tvFollowing.text = following
         holder.tvCompany.text = company
@@ -43,7 +42,6 @@ class ListHeroAdapter(private val listHero: ArrayList<Hero>) : RecyclerView.Adap
         var imgPhoto: ImageView = itemView.findViewById(R.id.img_item_photo)
         var tvName: TextView = itemView.findViewById(R.id.tv_item_name)
         var tvUsername: TextView = itemView.findViewById(R.id.tv_item_username)
-        var tvSkill: TextView = itemView.findViewById(R.id.tv_item_skill)
         var tvFollower: TextView = itemView.findViewById(R.id.tv_item_follower)
         var tvFollowing: TextView = itemView.findViewById(R.id.tv_item_following)
         var tvCompany: TextView = itemView.findViewById(R.id.tv_item_company)

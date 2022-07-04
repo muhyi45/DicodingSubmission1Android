@@ -7,7 +7,6 @@ import kotlinx.android.parcel.Parcelize
 data class Hero(
     var name: String,
     var username: String,
-    var skill: String,
     var follower: String,
     var following: String,
     var company: String,

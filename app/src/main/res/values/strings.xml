@@ -1,142 +1,260 @@
+<!--<resources>-->
+<!--    <string name="app_name">GitHub Users</string>-->
+
+<!--    <string name="heroes_name">Nama</string>-->
+<!--    <string name="username">UserName</string>-->
+<!--    <string name="skill">Skill dan Kemampuan</string>-->
+<!--    <string name="follower">Follower</string>-->
+<!--    <string name="following">Following</string>-->
+<!--    <string name="company">Company</string>-->
+<!--    <string name="location">Lokasi</string>-->
+<!--    <string name="repository">Repository</string>-->
+
+
+
+<!--    <string-array name="data_name">-->
+<!--        <item>Muhyidin Yahya</item>-->
+<!--        <item>Jajang Wilson</item>-->
+<!--        <item>Yuda Syahidin</item>-->
+<!--        <item>Glory Ester</item>-->
+<!--        <item>Lingga Purnama Putra</item>-->
+<!--        <item>Muhammad Angga</item>-->
+<!--        <item>Nur Azizah Putri</item>-->
+<!--        <item>Hadi Hadiat</item>-->
+<!--        <item>Randy Ramadhan</item>-->
+<!--        <item>Sobar Sobari</item>-->
+<!--        <item>Sofyan Alwi</item>-->
+
+<!--    </string-array>-->
+<!--    <string-array name="data_username">-->
+<!--        <item>muhyi45</item>-->
+<!--        <item>wilsonjj23</item>-->
+<!--        <item>yudasya12</item>-->
+<!--        <item>gloryester789</item>-->
+<!--        <item>linggapp012</item>-->
+<!--        <item>mangga2</item>-->
+<!--        <item>nurputri65</item>-->
+<!--        <item>hadiat09</item>-->
+<!--        <item>ramadhan2011</item>-->
+<!--        <item>sobarsobar12</item>-->
+<!--        <item>sofyan43</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="data_skill">-->
+<!--        <item>Kotlin</item>-->
+<!--        <item>Java</item>-->
+<!--        <item>Laravel</item>-->
+<!--        <item>Laravel</item>-->
+<!--        <item>Python</item>-->
+<!--        <item>Visual Basic</item>-->
+<!--        <item>.Net</item>-->
+<!--        <item>Kotlin</item>-->
+<!--        <item>Full Stack</item>-->
+<!--        <item>JavaScrip</item>-->
+<!--        <item>Laravel</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="data_follower">-->
+<!--        <item>Follower 200</item>-->
+<!--        <item>Follower 341</item>-->
+<!--        <item>Follower 674</item>-->
+<!--        <item>Follower 124</item>-->
+<!--        <item>Follower 142</item>-->
+<!--        <item>Follower 223</item>-->
+<!--        <item>Follower 678</item>-->
+<!--        <item>Follower 123</item>-->
+<!--        <item>Follower 536</item>-->
+<!--        <item>Follower 431</item>-->
+<!--        <item>Follower 111</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="data_following">-->
+<!--        <item>Following 129</item>-->
+<!--        <item>Following 200</item>-->
+<!--        <item>Following 467</item>-->
+<!--        <item>Following 98</item>-->
+<!--        <item>Following 142</item>-->
+<!--        <item>Following 590</item>-->
+<!--        <item>Following 123</item>-->
+<!--        <item>Following 456</item>-->
+<!--        <item>Following 984</item>-->
+<!--        <item>Following 144</item>-->
+<!--        <item>Following 123</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="data_company">-->
+<!--        <item>Company : PT. Sahabat Sejahtera</item>-->
+<!--        <item>Company : PT. Kartika Sari</item>-->
+<!--        <item>Company : MNC Group</item>-->
+<!--        <item>Company : Garuda Cyber</item>-->
+<!--        <item>Company : Indonesia Programming Center</item>-->
+<!--        <item>Company : Es Krim Campina</item>-->
+<!--        <item>Company : PT. Asus ROG</item>-->
+<!--        <item>Company : PT. Bangkit</item>-->
+<!--        <item>Company : Samsung Glaxy 12</item>-->
+<!--        <item>Company : Dinas Perhubungan Kota Bandung</item>-->
+<!--        <item>Company : Development Gojek</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="data_location">-->
+<!--        <item>Alamat : Jl.Melong Raya Blok Suka Asih Rt 05 Rw 14 No 199, Cimahi Selatan, Kota Cimahi</item>-->
+<!--        <item>Alamat : Jl. Kebon Kopi, Cibeureum, Kec. Cimahi Sel., Kota Cimahi, Jawa Barat 40535</item>-->
+<!--        <item>Alamat : Jl. Raya Cijerah No.146, Cijerah, Kec. Bandung Kulon, Kota Bandung, Jawa Barat 40213</item>-->
+<!--        <item>Alamat : Jl. Jend. Sudirman No.570-574, Dungus Cariang, Kec. Andir, Kota Bandung, Jawa Barat 40183</item>-->
+<!--        <item>Alamat : Jl. Bandara Husein Sastranegara No.Kavling 27, Husen Sastranegara, Kec. Cicendo, Kota Bandung, Jawa Barat 40174</item>-->
+<!--        <item>Alamat : Jl. Mahar Martanegara No.48, Utama, Kec. Cimahi Sel., Kota Cimahi, Jawa Barat 40521</item>-->
+<!--        <item>Alamat : Jl. Nanjung No.103, Utama, Kec. Cimahi Sel., Kota Cimahi, Jawa Barat 40533</item>-->
+<!--        <item>Alamat : Jl. Cihanjuang Cibaligo Permai Raya No.58, Cihanjuang, Kec. Parongpong, Kabupaten Bandung Barat, Jawa Barat 40559</item>-->
+<!--        <item>Alamat : Jl.Raya Barat No.57, Setiamanah, Kec. Cimahi Tengah, Kota Cimahi, Jawa Barat 40524</item>-->
+<!--        <item>Alamat : Jl. Permana No.32B, Citeureup, Kec. Cimahi Utara, Kota Cimahi, Jawa Barat 40512</item>-->
+<!--        <item>Alamat : Jl. Pepaya No.12, Citeureup, Kec. Cimahi Utara, Kota Cimahi, Jawa Barat 40512</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="data_repository">-->
+<!--        <item>Repository : https://github.com/muhyi45/DicodingSubmission1Android</item>-->
+<!--        <item>Repository : https://github.com/wilsonjj23/DicodingSubmission1Android</item>-->
+<!--        <item>Repository : https://github.com/yudasya12/DicodingSubmission1Android</item>-->
+<!--        <item>Repository : https://github.com/gloryester789/DicodingSubmission1Android</item>-->
+<!--        <item>Repository : https://github.com/linggapp012/DicodingSubmission1Android</item>-->
+<!--        <item>Repository : https://github.com/mangga2/DicodingSubmission1Android</item>-->
+<!--        <item>Repository : https://github.com/nurputri65/DicodingSubmission1Android</item>-->
+<!--        <item>Repository : https://github.com/hadiat09/DicodingSubmission1Android</item>-->
+<!--        <item>Repository : https://github.com/ramadhan2011/DicodingSubmission1Android</item>-->
+<!--        <item>Repository : https://github.com/sobarsobar12/DicodingSubmission1Android</item>-->
+<!--        <item>Repository : https://github.com/sofyan43/DicodingSubmission1Android</item>-->
+<!--    </string-array>-->
+
+<!--    <integer-array name="data_photo">-->
+<!--        <item>@drawable/muhyidin</item>-->
+<!--        <item>@drawable/jajang</item>-->
+<!--        <item>@drawable/yuda</item>-->
+<!--        <item>@drawable/glory</item>-->
+<!--        <item>@drawable/lingga</item>-->
+<!--        <item>@drawable/angga</item>-->
+<!--        <item>@drawable/azizah</item>-->
+<!--        <item>@drawable/hadiat</item>-->
+<!--        <item>@drawable/randy</item>-->
+<!--        <item>@drawable/sobari</item>-->
+<!--        <item>@drawable/sofyan</item>-->
+<!--    </integer-array>-->
+
+
+<!--</resources>-->
 <resources>
     <string name="app_name">GitHub Users</string>
 
-    <string name="heroes_name">Nama</string>
-    <string name="username">UserName</string>
-    <string name="skill">Skill dan Kemampuan</string>
-    <string name="follower">Follower</string>
-    <string name="following">Following</string>
-    <string name="company">Company</string>
-    <string name="location">Lokasi</string>
-    <string name="repository">Repository</string>
+        <string name="heroes_name">Nama</string>
+        <string name="username">UserName</string>
+        <string name="skill">Skill dan Kemampuan</string>
+        <string name="follower">Follower</string>
+        <string name="following">Following</string>
+        <string name="company">Company</string>
+        <string name="location">Lokasi</string>
+        <string name="repository">Repository</string>
 
 
+    <string-array name="data_username">
+        <item>JakeWharton</item>
+        <item>amitshekhariitbhu</item>
+        <item>romainguy</item>
+        <item>chrisbanes</item>
+        <item>tipsy</item>
+        <item>ravi8x</item>
+        <item>jasoet</item>
+        <item>budioktaviyan</item>
+        <item>hendisantika</item>
+        <item>sidiqpermana</item>
+    </string-array>
 
     <string-array name="data_name">
-        <item>Muhyidin Yahya</item>
-        <item>Jajang Wilson</item>
-        <item>Yuda Syahidin</item>
-        <item>Glory Ester</item>
-        <item>Lingga Purnama Putra</item>
-        <item>Muhammad Angga</item>
-        <item>Nur Azizah Putri</item>
-        <item>Hadi Hadiat</item>
-        <item>Randy Ramadhan</item>
-        <item>Sobar Sobari</item>
-        <item>Sofyan Alwi</item>
-
-    </string-array>
-    <string-array name="data_username">
-        <item>muhyi45</item>
-        <item>wilsonjj23</item>
-        <item>yudasya12</item>
-        <item>gloryester789</item>
-        <item>linggapp012</item>
-        <item>mangga2</item>
-        <item>nurputri65</item>
-        <item>hadiat09</item>
-        <item>ramadhan2011</item>
-        <item>sobarsobar12</item>
-        <item>sofyan43</item>
-    </string-array>
-
-    <string-array name="data_skill">
-        <item>Kotlin</item>
-        <item>Java</item>
-        <item>Laravel</item>
-        <item>Laravel</item>
-        <item>Python</item>
-        <item>Visual Basic</item>
-        <item>.Net</item>
-        <item>Kotlin</item>
-        <item>Full Stack</item>
-        <item>JavaScrip</item>
-        <item>Laravel</item>
-    </string-array>
-
-    <string-array name="data_follower">
-        <item>Follower 200</item>
-        <item>Follower 341</item>
-        <item>Follower 674</item>
-        <item>Follower 124</item>
-        <item>Follower 142</item>
-        <item>Follower 223</item>
-        <item>Follower 678</item>
-        <item>Follower 123</item>
-        <item>Follower 536</item>
-        <item>Follower 431</item>
-        <item>Follower 111</item>
-    </string-array>
-
-    <string-array name="data_following">
-        <item>Following 129</item>
-        <item>Following 200</item>
-        <item>Following 467</item>
-        <item>Following 98</item>
-        <item>Following 142</item>
-        <item>Following 590</item>
-        <item>Following 123</item>
-        <item>Following 456</item>
-        <item>Following 984</item>
-        <item>Following 144</item>
-        <item>Following 123</item>
-    </string-array>
-
-    <string-array name="data_company">
-        <item>Company : PT. Sahabat Sejahtera</item>
-        <item>Company : PT. Kartika Sari</item>
-        <item>Company : MNC Group</item>
-        <item>Company : Garuda Cyber</item>
-        <item>Company : Indonesia Programming Center</item>
-        <item>Company : Es Krim Campina</item>
-        <item>Company : PT. Asus ROG</item>
-        <item>Company : PT. Bangkit</item>
-        <item>Company : Samsung Glaxy 12</item>
-        <item>Company : Dinas Perhubungan Kota Bandung</item>
-        <item>Company : Development Gojek</item>
+        <item>Jake Wharton</item>
+        <item>Amit Shekhar</item>
+        <item>Romain Guy</item>
+        <item>Chris Banes</item>
+        <item>David</item>
+        <item>Ravi Tamada</item>
+        <item>Deny Prasetyo</item>
+        <item>Budi Oktaviyan</item>
+        <item>Hendi Santika</item>
+        <item>Sidiq Permana</item>
     </string-array>
 
     <string-array name="data_location">
-        <item>Alamat : Jl.Melong Raya Blok Suka Asih Rt 05 Rw 14 No 199, Cimahi Selatan, Kota Cimahi</item>
-        <item>Alamat : Jl. Kebon Kopi, Cibeureum, Kec. Cimahi Sel., Kota Cimahi, Jawa Barat 40535</item>
-        <item>Alamat : Jl. Raya Cijerah No.146, Cijerah, Kec. Bandung Kulon, Kota Bandung, Jawa Barat 40213</item>
-        <item>Alamat : Jl. Jend. Sudirman No.570-574, Dungus Cariang, Kec. Andir, Kota Bandung, Jawa Barat 40183</item>
-        <item>Alamat : Jl. Bandara Husein Sastranegara No.Kavling 27, Husen Sastranegara, Kec. Cicendo, Kota Bandung, Jawa Barat 40174</item>
-        <item>Alamat : Jl. Mahar Martanegara No.48, Utama, Kec. Cimahi Sel., Kota Cimahi, Jawa Barat 40521</item>
-        <item>Alamat : Jl. Nanjung No.103, Utama, Kec. Cimahi Sel., Kota Cimahi, Jawa Barat 40533</item>
-        <item>Alamat : Jl. Cihanjuang Cibaligo Permai Raya No.58, Cihanjuang, Kec. Parongpong, Kabupaten Bandung Barat, Jawa Barat 40559</item>
-        <item>Alamat : Jl.Raya Barat No.57, Setiamanah, Kec. Cimahi Tengah, Kota Cimahi, Jawa Barat 40524</item>
-        <item>Alamat : Jl. Permana No.32B, Citeureup, Kec. Cimahi Utara, Kota Cimahi, Jawa Barat 40512</item>
-        <item>Alamat : Jl. Pepaya No.12, Citeureup, Kec. Cimahi Utara, Kota Cimahi, Jawa Barat 40512</item>
+        <item>Pittsburgh, PA, USA</item>
+        <item>New Delhi, India</item>
+        <item>California</item>
+        <item>Sydney, Australia</item>
+        <item>Trondheim, Norway</item>
+        <item>India</item>
+        <item>Kotagede, Yogyakarta, Indonesia</item>
+        <item>Jakarta, Indonesia</item>
+        <item>Bojongsoang - Bandung Jawa Barat</item>
+        <item>Jakarta Indonesia</item>
     </string-array>
 
     <string-array name="data_repository">
-        <item>Repository : https://github.com/muhyi45/DicodingSubmission1Android</item>
-        <item>Repository : https://github.com/wilsonjj23/DicodingSubmission1Android</item>
-        <item>Repository : https://github.com/yudasya12/DicodingSubmission1Android</item>
-        <item>Repository : https://github.com/gloryester789/DicodingSubmission1Android</item>
-        <item>Repository : https://github.com/linggapp012/DicodingSubmission1Android</item>
-        <item>Repository : https://github.com/mangga2/DicodingSubmission1Android</item>
-        <item>Repository : https://github.com/nurputri65/DicodingSubmission1Android</item>
-        <item>Repository : https://github.com/hadiat09/DicodingSubmission1Android</item>
-        <item>Repository : https://github.com/ramadhan2011/DicodingSubmission1Android</item>
-        <item>Repository : https://github.com/sobarsobar12/DicodingSubmission1Android</item>
-        <item>Repository : https://github.com/sofyan43/DicodingSubmission1Android</item>
+        <item>102</item>
+        <item>37</item>
+        <item>9</item>
+        <item>30</item>
+        <item>56</item>
+        <item>28</item>
+        <item>44</item>
+        <item>110</item>
+        <item>1064</item>
+        <item>65</item>
     </string-array>
 
-    <integer-array name="data_photo">
-        <item>@drawable/muhyidin</item>
-        <item>@drawable/jajang</item>
-        <item>@drawable/yuda</item>
-        <item>@drawable/glory</item>
-        <item>@drawable/lingga</item>
-        <item>@drawable/angga</item>
-        <item>@drawable/azizah</item>
-        <item>@drawable/hadiat</item>
-        <item>@drawable/randy</item>
-        <item>@drawable/sobari</item>
-        <item>@drawable/sofyan</item>
-    </integer-array>
+    <string-array name="data_company">
+        <item>Google, Inc.</item>
+        <item>MindOrksOpenSource</item>
+        <item>Google</item>
+        <item>Google working on @android</item>
+        <item>Working Group Two</item>
+        <item>AndroidHive | Droid5</item>
+        <item>gojek-engineering</item>
+        <item>KotlinID</item>
+        <item>JVMDeveloperID @KotlinID @IDDevOps</item>
+        <item>Nusantara Beta Studio</item>
+    </string-array>
 
+    <string-array name="data_follower">
+        <item>56995</item>
+        <item>5153</item>
+        <item>7972</item>
+        <item>14725</item>
+        <item>788</item>
+        <item>18628</item>
+        <item>277</item>
+        <item>178</item>
+        <item>428</item>
+        <item>465</item>
+    </string-array>
+
+    <string-array name="data_following">
+        <item>12</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>3</item>
+        <item>39</item>
+        <item>23</item>
+        <item>61</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>@drawable/user1</item>
+        <item>@drawable/user2</item>
+        <item>@drawable/user3</item>
+        <item>@drawable/user4</item>
+        <item>@drawable/user5</item>
+        <item>@drawable/user6</item>
+        <item>@drawable/user7</item>
+        <item>@drawable/user8</item>
+        <item>@drawable/user9</item>
+        <item>@drawable/user10</item>
+    </string-array>
 
 </resources>

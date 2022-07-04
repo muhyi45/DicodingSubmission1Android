@@ -26,7 +26,6 @@ class MainActivity : AppCompatActivity() {
         get() {
             val dataName = resources.getStringArray(R.array.data_name)
             val dataUsername = resources.getStringArray(R.array.data_username)
-            val dataSkill = resources.getStringArray(R.array.data_skill)
             val dataFollower = resources.getStringArray(R.array.data_follower)
             val dataFollowing = resources.getStringArray(R.array.data_following)
             val dataCompany = resources.getStringArray(R.array.data_company)
@@ -37,7 +36,6 @@ class MainActivity : AppCompatActivity() {
             for (i in dataName.indices) {
                 val hero = Hero(dataName[i],
                     dataUsername[i],
-                    dataSkill[i],
                     dataFollower[i],
                     dataFollowing[i],
                     dataCompany[i],
